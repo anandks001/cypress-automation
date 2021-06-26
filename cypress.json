@@ -1,0 +1,11 @@
+{
+	"baseUrl": "http://localhost:8080/",
+	"testFiles": "**/*.feature",
+	"nodeVersion": "system",
+	"pageLoadTimeout": 100000,
+	"defaultCommandTimeout": 7000,
+	"env": {
+		"allure": true,
+		"allureResultsPath": "allure-results"
+	}
+}
