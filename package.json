@@ -1,24 +1,26 @@
 {
-	"name": "fashion_cloud_task",
-	"version": "1.0.0",
-	"description": "Cypress-Cucumber",
-	"main": "index.js",
-	"scripts": {
-		"test": "npx cypress run",
-		"posttest": "allure generate allure-results --clean && allure open"
-	},
-	"keywords": [],
-	"author": "Anand Sundramurthy",
-	"license": "ISC",
-	"type": "commonjs",
-	"devDependencies": {
-		"@shelex/cypress-allure-plugin": "^2.8.2",
-		"allure-commandline": "^2.13.8",
-		"cypress": "^7.5.0",
-		"cypress-cucumber-preprocessor": "^4.1.2"
-	},
-	"cypress-cucumber-preprocessor": {
-		"nonGlobalStepDefinitions": true
-	},
-	"dependencies": {}
+  "name": "node-todo",
+  "version": "0.0.1",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "Scotch",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx cypress run",
+    "posttest": "allure generate allure-results --clean && allure open"
+  },
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.1.1",
+    "@shelex/cypress-allure-plugin": "^2.8.2",
+    "allure-commandline": "^2.13.8",
+    "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^4.1.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
 }
