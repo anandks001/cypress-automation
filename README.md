@@ -1,5 +1,5 @@
-# Automation-task
-Cypress web automation using Cucumber
+# Todo list Automation
+Cypress automation using Cucumber
 
 ## Project Description:
 * Project setup with Cypress and Cucumber plugin
